@@ -11,6 +11,12 @@ public class HomeController {
 		return "login";
 	}
 	
+//	@RequestMapping("/")
+//	public String indexPage() {
+//		return "login";
+//	}
+//	
+	
 	@RequestMapping("/addJsp")
 	public String addJsp() {
 		return "register";
